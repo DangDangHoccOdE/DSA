@@ -20,8 +20,8 @@ public class _23_Merge_k_Sorted_Lists {
             }
         }
 
-        ListNode head = null;
-        ListNode lastNode = null;
+        ListNode head = null;  // head là nút đầu danh sách
+        ListNode lastNode = null; // lastnode là nút cuối danh sách
         while(!queue.isEmpty()){
             ListNode curr = queue.poll(); // Lay ra th nho nhat
             if(head == null) {
